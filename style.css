@@ -1,0 +1,41 @@
+
+
+header{
+    padding: 20px 40px;
+    width: 100%;
+    height: 1024px;
+}
+
+nav{
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(218, 255, 255);
+    border-radius: 100px;
+    padding: 0 40px;
+}
+
+.menu-item{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.nav-button{
+    color: white;
+    background-color: rgba(75, 91, 116, 1);
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+
+.nav-button:hover{
+    background-color: black;
+}
